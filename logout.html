@@ -1,0 +1,46 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="logout.css">
+<link rel = "icon" href = "NFAlogo.png" type = "image/x-icon">
+<title>NFA - GID1 WHSE</title>
+</head>
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="logo" id="btn"><img src="NFAlogo.png" width="80px" length="80px"></i>
+      <i class="logo" id="cancel"><img src="NFAlogo.png" width="80px" legth="80px"></i>
+    </label>
+    <div class="sidebar">
+      <header><p>Welcome to<br>GID1 WHSE</p></header>
+      <a href="sidebarAdmin.html" class="">
+        <i class="fas fa-qrcode"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="inventoryAdmin.html" class="">
+        <i class="fas fa-link"></i>
+        <span>Inventory</span>
+      </a>
+      <a href="summaryAdmin.html" class="">
+        <i class="fas fa-stream"></i>
+        <span>Summary</span>
+      </a>
+      <a href="printAdmin.html" class="">
+        <i class="fas fa-stream"></i>
+        <span>Print</span>
+      </a>
+      <a href="logout.html" class="active">
+        <i class="fas fa-stream"></i>
+        <span>LogOut</span>
+      </a>
+    </div>
+  </body>
+  <div class="card">
+    <div class="date">
+        <h3>Are you sure you want to Log Out?</h3>
+        <form action="home.html"><button>Yes</button></form>
+        <form action="sidebarAdmin.html"><button>No</button></form>
+    </div>
+</div>
+</html>

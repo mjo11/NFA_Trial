@@ -1,0 +1,54 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="sidebarAdmin.css">
+<link rel = "icon" href = "NFAlogo.png" type = "image/x-icon">
+<title>NFA - GID1 WHSE</title>
+</head>
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="logo" id="btn"><img src="NFAlogo.png" width="80px" length="80px"></i>
+      <i class="logo" id="cancel"><img src="NFAlogo.png" width="80px" legth="80px"></i>
+    </label>
+    <div class="sidebar">
+      <header><p>Welcome to<br>GID1 WHSE</p></header>
+      <a href="sidebarAdmin.html" class="active">
+        <i class="fas fa-qrcode"></i>
+        <span>Dashboard</span>
+      </a>
+      <a href="inventoryAdmin.html" class="">
+        <i class="fas fa-link"></i>
+        <span>Inventory</span>
+      </a>
+      <a href="summaryAdmin.html" class="">
+        <i class="fas fa-stream"></i>
+        <span>Summary</span>
+      </a>
+      <a href="printAdmin.html" class="">
+        <i class="fas fa-stream"></i>
+        <span>Print</span>
+      </a>
+      <a href="logout.html" class="">
+        <i class="fas fa-stream"></i>
+        <span>LogOut</span>
+      </a>
+    </div>
+  </body>
+  <div class="card">
+    <table class="BalanceSacks">
+        <tr>
+          <th class="header-label">193 BN Sacks</th>
+          <th class="header-label">108 Serv Sacks</th>
+          <th class="header-label">66 Uns Sacks</th>
+        </tr>
+    </table>
+  </div>
+
+  <div class="card1">
+    <h3>Weekly Update</h3>
+    <img src="linegraph.jpg" width="500px">
+    <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+  </div>
+</html>
